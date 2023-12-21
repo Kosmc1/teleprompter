@@ -1,5 +1,5 @@
 User-agent: *
 
-Sitemap: http://http://promptr.tv/sitemap.xml
+Sitemap: https://teleprompter.kosmc.ai/sitemap.xml
 
 Disallow: /remote
