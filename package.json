@@ -30,6 +30,7 @@
     "stop": "forever stop -w --minUptime 1000 --spinSleepTime 1000 -m 1 -l server.log --append -o ./server-stdout.log -e ./server-stderr.log server.js",
     "client": "http-server --cors -p 8080",
     "client-ssl": "http-server -d false -g true -s true --cors -S -C localhost.crt -K localhost.key",
+    "deploy":"aws s3 sync public/ s3://teleprompter.kosmc.ai",
     "server": "node server.js"
   },
   "dependencies": {
